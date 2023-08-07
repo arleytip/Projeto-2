@@ -1,0 +1,121 @@
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: rgb(255,127,252);
+  background: linear-gradient(0deg, rgba(255,127,252,1) 0%, rgba(0,0,0,1) 82%, rgba(0,0,0,1) 92%, rgba(0,0,0,1) 100%);
+  min-height: 100vh;
+
+}
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+nav img{
+  width: 70px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+h1, ul {
+  font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 36px;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+section p {
+  font-size: 16px;
+  margin: 40px 0;
+  color:#ffffff;
+}
+
+h1 span{
+  color: #f7b4ec;
+  font-weight: bold;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+
+  background: #7effd8;
+  border: none;
+  padding: 14px 32px 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 6px;
+
+  cursor: pointer;
+
+
+}
+
+button:hover{
+  background:  #1be0a5;
+  ;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
+  color:#ffffff
+
+}
+footer a{
+  text-decoration: none;
+  color:#ffffff
+}
+footer a:hover{
+  font-weight: bold;
+}
+
+#presente {
+  width: 520px;
+}
+
+#whatsapp {
+  width: 30px;
+}
